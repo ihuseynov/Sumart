@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">aquaHack</string>
+    <string-array name="abonTipi">
+        <item>Əhali</item>
+        <item>Qeyri-Əhali</item>
+
+
+
+    </string-array>
+    <string name="ireli">İrəli</string>
+    <string name="quote1">2025-ci ilə qədər dünya əhalisinin yarısı su sıxıntısı olan bölgələrdə yaşayacaqdır.</string>
+
+</resources>

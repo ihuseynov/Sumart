@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sumart.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/l/images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/l/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/l/css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+
+<div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100">
+                <table>
+                    <thead>
+                    <tr class="table100-head">
+                        <th class="column1">Şəxsin adı</th>
+                        <th class="column2">Abonet kodu</th>
+                        <th class="column3">Ev</th>
+                        <th class="column4">Mənzil</th>
+                        <th class="column5">Borc</th>
+                        <th class="column6">Son ödəniş</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="user : ${users}">
+                        <td class="column1" th:text="${user.name}">0</td>
+                        <td class="column2" th:text="${user.userId}">0</td>
+                        <td class="column3" th:text="${user.apNum}">0</td>
+                        <td class="column4" th:text="${user.houseNum}">0</td>
+                        <td class="column5" th:text="${user.debt}">0</td>
+                        <td class="column6" th:text="${user.lastPaid}">0</td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--===============================================================================================-->
+<script src="/l/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="/l/vendor/bootstrap/js/popper.js"></script>
+<script src="/l/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="/l/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="/l/js/main.js"></script>
+
+</body>
+</html>

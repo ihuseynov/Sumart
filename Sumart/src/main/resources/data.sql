@@ -1,0 +1,11 @@
+insert into usersss values(164337,31,'12345678',21.32,'Sabunchu','sjafarov2021@ada.edu.az',12,'Noyabr-2020','Samir Jafarov','Bakixanov','Ev')
+insert into usersss values(202388,3,'12345678',65.14,'Xetai','ezeynalov2021@ada.edu.az',43,'Noyabr-2020','Elgiz Zeynalov','Bakixanov','Otel')
+insert into usersss values(354709,1,'12345678',1.50,'Nerimanov','ihuseynov2021@ada.edu.az',76,'Noyabr-2020','Iqbal Huseynov','Bakixanov','Cayxana')
+insert into usersss values(420398,13,'12345678',0,'Bileceri','umammadov2021@ada.edu.az',34,'Oktyabr-2020','Ulvi Memmedli','Bakixanov','Market')
+insert into usersss values(582337,21,'12345678',6.70,'Bineqedi','igbalhuseyn@gmail.com',13,'Noyabr-2020','Polad Khalilzade','Bakixanov','Bag evi')
+
+insert into usersss values(164338,31,'12345678',21.32,'Nerimanov','sjafarov2021@ada.edu.az',12,'Oktyabr-2020','Farhad Aydinov','Bakixanov','Ev')
+insert into usersss values(202389,3,'12345678',65.14,'Bileceri','ezeynalov2021@ada.edu.az',43,'Noyabr-2020','Elgiz Zeynalov','Bakixanov','Otel')
+insert into usersss values(354700,1,'12345678',1.50,'Sabunchu','ihuseynov2021@ada.edu.az',76,'Oktyabr-2020','Iqbal Huseynov','Bakixanov','Cayxana')
+insert into usersss values(420399,13,'12345678',0,'Xetai','umammadov2021@ada.edu.az',34,'Noyabr-2020','Ulvi Memmedli','Bakixanov','Market')
+insert into usersss values(582338,21,'12345678',6.70,'Xetai','igbalhuseyn@gmail.com',13,'Noyabr-2020','Polad Khalilzade','Bakixanov','Bag evi')
